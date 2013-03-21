@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>GuillaumeKollyEu</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title><%= title %></title>
+    	<meta name="description" content="Guillaume Kolly Portfolio">
+    	<meta name="author" content="Guillaume Kolly">
+  		<%= stylesheet_link_tag    "application", :media => "all" %>
+  		<%= javascript_include_tag "application" %>
+  		<%= csrf_meta_tags %>
+  		<!--[if lt IE 9]>
+  			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  		<![endif]-->
+	</head>
+	<body>
+		<%= render 'layouts/header' %>
+		<div id="wrap" role="wrap">
+	      <div class="container">
+	        <div class="content">
+	           <div class="row">
+	            <div class="span12">
+	              <%= yield %>
+	            </div>
+	          </div>
+	        </div>
+	      </div> <!--! end of .container -->
+		<div id="push"></div>
+	    </div> <!--! end of #main -->
+		<%= render 'layouts/footer' %>
+	</body>
 </html>

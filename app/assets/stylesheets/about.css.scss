@@ -1,0 +1,110 @@
+//
+// ABOUT ME
+//
+
+#photo {
+	max-width: 375px;
+}
+
+//
+// TIMELINE
+//
+
+#timeline {
+	height: 200px;
+	margin: 20px 0;
+}
+
+#timeline .circle {
+	width: 30px;
+	height: 30px;
+	border: 5px solid #000;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	float: left;
+	background-color: #000;
+	margin: 75px 0 0 0;
+}
+
+#timeline .line {
+	width: 100%;
+	height: 10px;
+	background-color: #000;
+	float: left;
+	margin: -25px 0 0 0;
+}
+
+#timeline .arrow {
+	width:0;
+	height:0;
+	border:10px solid #FFF;
+	float: right;
+	margin-right: -10px;
+	margin-top: -5px;
+}
+
+#timeline .right { border-left: 30px solid black; }
+#timeline .up { border-bottom:10px solid black; }
+#timeline .down { border-top:10px solid black; }
+
+#timeline .list-item { list-style: none; }
+
+#timeline .pins-top { 
+	float: left; 
+	width: 31px; 
+	height: 44px; 
+	margin-top: -55px; 
+	margin-left: -15px; 
+	background: url('pins-top.jpg'); 
+	-webkit-transition: margin-top 0.5s ;
+	-moz-transition: margin-top 0.5s;
+	-o-transition: margin-top 0.5s ;
+	-ms-transition: margin-top 0.5s ;
+	transition: margin-top 0.5s;
+}
+
+#timeline .pins-bottom { 
+	float: left; 
+	width: 31px; 
+	height: 44px; 
+	margin-top: 10px; 
+	margin-left: -15px; 
+	background: url('pins-bottom.jpg'); 
+	-webkit-transition: margin-top 0.5s ;
+	-moz-transition: margin-top 0.5s;
+	-o-transition: margin-top 0.5s ;
+	-ms-transition: margin-top 0.5s ;
+	transition: margin-top 0.5s;
+}
+
+#timeline .pins-top:hover { margin-top: -45px;}
+#timeline .pins-bottom:hover { margin-top: 1px;}
+
+#timeline .top-one { float: left; margin-left: 5%; margin-top: -45px;}
+#timeline .top-two { float: left; margin-left: 11%; margin-top: -45px;}
+#timeline .top-three { float: left; margin-left: 34%; margin-top: -45px;}
+#timeline .top-four { float: left; margin-left: 58%; margin-top: -45px;}
+#timeline .top-five { float: left; margin-left: 68%; margin-top: -45px;}
+#timeline .top-six { float: left; margin-left: 89%; margin-top: -45px;}
+
+#timeline .bottom-one { float: left; margin-left: 14%; margin-top: -15px;}
+#timeline .bottom-two { float: left; margin-left: 47%; margin-top: -15px;}
+#timeline .bottom-three { float: left; margin-left: 79%; margin-top: -20px;}
+
+
+.tooltip-title { text-transform:uppercase; }
+.tooltip-date { color: #BDBDBD; }
+.tooltip-text { font-style: italic; }
+
+//
+// SKILLS
+//
+
+#skill {
+	height: 200px;
+	margin: 0;
+	border: 1px solid green;
+}
+

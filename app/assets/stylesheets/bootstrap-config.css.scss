@@ -1,0 +1,20 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+html { overflow-y: scroll; height:100%;}
+body { padding-top: 60px; height:100%;}
+section { overflow: auto; }
+textarea { resize: vertical; }
+
+#wrap { min-height: 100%; height: auto !important; height: 100%; }
+#push, #footer { height: 40px; }
+
+a { color: #6E6E6E; text-decoration: none; }
+a:hover {color: #6E6E6E; text-decoration: underline; }
+a:visited {color: #6E6E6E; }
+
+h2 {font-size: 28px; color: #000; text-transform:uppercase;}
+
+@media (max-width: 979px) {
+  body { padding-top: 0; }
+}

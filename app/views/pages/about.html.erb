@@ -1,0 +1,17 @@
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div id="photo" class="span4 black-border"> <!-- ABOUT ME PICTURE -->
+			<%= image_tag("gk_about.jpg", alt: "Guillaume Kolly") %>
+  		</div>
+  		<div class="span8"> <!-- ABOUT ME TEXT -->
+			<h2>About Me</h2>
+			<p><%= render 'about/about_me' %></p>
+		</div>
+		<div id="timeline" class="span12">
+			<%= render 'about/timeline' %>
+  		</div>
+		<div id="skill" class="span12">
+			<%= render 'about/skill' %>
+		</div>
+	</div>
+</div>

@@ -12,4 +12,15 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
 //= require_tree .
+
+
+// TOOLTIP BOOTSTRAP
+$(document).ready(function () {
+  	$("[rel=tooltip]").tooltip({
+		animation: true,
+		html : true,
+	});
+});
+// END TOOLTIP BOOSTRAP
